@@ -1,0 +1,32 @@
+.aside{
+    width: 20%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    background-color: rgb(131, 2, 71);
+
+    h3{
+        font-weight: bold;
+        font-size: x-large;
+        font-family: monospace;
+    }
+    ul{
+        list-style: none;
+        padding-left: 0;
+
+        li{
+            padding: 5px;
+            margin-bottom: 15px;
+            font-family: monospace;
+            font-size: large;
+            transition: 0.6s;
+        }
+        li:hover{
+            color: hotpink;
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+    }
+}
